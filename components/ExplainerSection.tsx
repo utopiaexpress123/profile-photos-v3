@@ -1,10 +1,10 @@
-import blur from "/public/blur.png";
+import blurred from "/public/blurred.gif";
 import example from "/public/example.png";
 import result from "/public/result.png";
 
 export default function ExplainerSection() {
   return (
-    <div className="w-full max-w-6xl mt-16 p-8 bg-gray-100 rounded-lg space-y-8">
+    <div className="w-full max-w-6xl mt-16 p-8 bg-gray-10 rounded-lg space-y-8">
       <h2 className="text-3xl font-bold text-center mb-8">How It Works</h2>
 
       {/* Step 1: Upload your images */}
@@ -13,7 +13,7 @@ export default function ExplainerSection() {
           <div className="text-3xl font-bold text-blue-600 bg-white border-2 border-blue-600 rounded-full w-10 h-10 flex items-center justify-center">
             1
           </div>
-          <h3 className="text-2xl font-semibold">Upload your images</h3>
+          <h3 className="text-2xl font-semibold">Upload your f*cked up photos</h3>
         </div>
         <p className="text-sm text-gray-600 text-center">
           Upload 4+ high-quality selfies: front facing, 1 person in frame, no
@@ -38,7 +38,7 @@ export default function ExplainerSection() {
           The AI magic takes ~20 minutes. You'll get an email when its ready!
         </p>
         <img
-          src={blur.src}
+          src={blurred.src}
           alt="AI Headshot blur"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
@@ -50,10 +50,10 @@ export default function ExplainerSection() {
           <div className="text-3xl font-bold text-blue-600 bg-white border-2 border-blue-600 rounded-full w-10 h-10 flex items-center justify-center">
             3
           </div>
-          <h3 className="text-2xl font-semibold">Get amazing headshots</h3>
+          <h3 className="text-2xl font-semibold">Get amazing portraits</h3>
         </div>
         <p className="text-sm text-gray-600 text-center">
-          Once your model is trained, we'll give you amazing headshots!
+          Once your model is trained, we'll give you the best photos of your life!
         </p>
         <img
           src={result.src}
