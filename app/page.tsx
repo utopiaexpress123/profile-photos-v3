@@ -6,6 +6,7 @@ import hero from "/public/hero.png";
 import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
+import ChatBot from '/components/ChatBot';
 export const dynamic = "force-dynamic";
 
 export default async function Index() {
@@ -58,6 +59,7 @@ export default async function Index() {
       </div>
       <ExplainerSection />
       <PricingSection />
+      <ChatBot />
     </div>
   );
 }
