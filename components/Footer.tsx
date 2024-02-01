@@ -7,7 +7,7 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/leap_api"
+          href="#"
           className="group"
           aria-label="Twitter"
           target="_blank"
@@ -20,7 +20,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/leap-ai/headshots-starter"
+          href="#"
           className="group"
           aria-label="GitHub"
           target="_blank"

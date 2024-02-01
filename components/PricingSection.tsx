@@ -50,7 +50,7 @@ const pricingOptions = [
     description:
       "Perfect for individuals looking to enhance their online presence.",
     features: [
-      "4 AI Headshots",
+      "4 photo of your clone",
     ],
     buttonText: "Choose Starter",
     bgColor: "bg-white",
@@ -61,7 +61,7 @@ const pricingOptions = [
     description:
       "Ideal for professionals requiring frequent updates to their profiles.",
     features: [
-      "12 AI Headshots",
+      "12 photo of your clone",
     ],
     buttonText: "Choose Basic",
     bgColor: "bg-blue-50",
@@ -71,7 +71,7 @@ const pricingOptions = [
     price: "5 Credits",
     description: "The best value with unlimited possibilities.",
     features: [
-      "20 AI Headshots",
+      "20 photo of your clone",
     ],
     buttonText: "Choose Premium",
     bgColor: "bg-white",

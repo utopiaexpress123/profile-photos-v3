@@ -5,8 +5,8 @@ import "./globals.css";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Headshots AI",
-  description: "Generate awesome headshots in minutes using AI",
+  title: "Utopia Custom Model Training",
+  description: "Create your clone and generate awesome photos in minutes using AI",
 };
 
 export default function RootLayout({ children }: any) {
