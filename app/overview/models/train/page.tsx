@@ -27,7 +27,7 @@ export default async function Index() {
           <CardHeader>
             <CardTitle>Train Model</CardTitle>
             <CardDescription>
-              Choose a name, type, and upload some photos to get started.
+              Choose a name and upload some photos to get started.
             </CardDescription>
           </CardHeader>
           <CardContent className="grid gap-6">
