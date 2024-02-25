@@ -19,7 +19,7 @@ if (!leapWebhookSecret) {
 export async function POST(request: Request) {
   const payload = await request.json();
   const images = payload.urls;
-  const type = "man";
+  const type = payload.type;
   const name = payload.name;
 
   const supabase = createRouteHandlerClient<Database>({ cookies });
