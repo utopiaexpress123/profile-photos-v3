@@ -213,7 +213,7 @@ export default function TrainModelZone() {
           <div className="flex flex-col gap-4">
             <FormLabel>Type</FormLabel>
             <FormDescription>
-              Select the type of headshots you want to generate.
+              Select the type of photos you want to generate.
             </FormDescription>
             <RadioGroup
               defaultValue={modelType}
