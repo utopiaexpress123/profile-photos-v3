@@ -8,6 +8,8 @@ import hero from "/public/hero.png";
 //import PricingSection from "@/components/PricingSection";
 import { MainHero } from "@/components/component/main-hero";
 import { HowItWoks } from "@/components/component/how-it-woks";
+
+
 export const dynamic = "force-dynamic";
 
 
