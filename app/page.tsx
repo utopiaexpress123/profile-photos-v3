@@ -8,7 +8,6 @@ import hero from "/public/hero.png";
 //import PricingSection from "@/components/PricingSection";
 import { MainHero } from "@/components/component/main-hero";
 import { HowItWoks } from "@/components/component/how-it-woks";
-import { FaqAccordion } from "@/components/component/faq-accordion";
 export const dynamic = "force-dynamic";
 
 
@@ -44,7 +43,7 @@ export default async function Index() {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row items-center gap-8 p-8 w-full">
-        <FaqAccordion/>
+        
       </div>
     </div>
   );
