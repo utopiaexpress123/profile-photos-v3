@@ -16,7 +16,7 @@ export function MainHero() {
         </p>
         <div className="flex items-center">
           <Link
-            className="inline-flex w-100 items-center rounded-full shadow-lg hover:shadow-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-100 text-black-800 text-sm font-normal px-2 py-1 ml-2"
+            className="inline-flex w-100 items-center rounded-full shadow-blue-500/50 shadow-lg hover:shadow-xl bg-slate-800 hover:bg-slate-800 dark:bg-slate-800 text-slate-100	 text-sm font-normal px-2 py-1 ml-2"
             href="./login"
             style={{
               borderRadius: "50px",
