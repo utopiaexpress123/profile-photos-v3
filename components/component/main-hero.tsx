@@ -9,8 +9,7 @@ export function MainHero() {
   return (
     <section className="w-full">
       <div className="container px-4 md:px-6 flex flex-col items-start gap-2">
-      <Badge variant="outline">Badge</Badge>
-        <h1 className="text-5xl font-extrabold tracking-tighter lg:text-6xl">Have a good photo of you</h1>
+        <h1 className="pt-5 text-5xl font-extrabold tracking-tighter lg:text-6xl">Have a good photo of you</h1>
         <p className="py-2 text-lg max-w-[700px] text-gray-500 dark:text-gray-400">
         Create your digital clone, and take good looking photos of you.
         No filters, no makeup, it's you, in your perfect form.

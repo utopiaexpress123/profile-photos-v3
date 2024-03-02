@@ -15,7 +15,6 @@ import React from "react";
 import { Database } from "@/types/supabase";
 import ClientSideCredits from "./realtime/ClientSideCredits";
 import logo from "/public/logo.png";
-import fingerprint from "/public/fingerprint.png";
 
 
 
@@ -37,7 +36,7 @@ export default async function Navbar() {
   } = await supabase.from("credits").select("*").eq("user_id", user?.id ?? '').single()
 
   return (
-    <div className="flex w-full px-4 lg:px-40 py-4 items-center border-b text-center gap-8 justify-between">
+    <div className="flex w-full px-4 lg:px-40 py-4 items-center text-center gap-8 justify-between">
       <div className="flex gap-2 h-full">
         <Link href="/">
         <img
@@ -64,12 +63,6 @@ export default async function Navbar() {
         {!user && (
           <Link href="/login">
             <Button variant={"ghost"}>Login / Signup</Button>
-            <img
-            width="16px"
-            src={fingerprint.src}
-            alt="Utopia Express"
-            className="object-contain"
-          />
           </Link>
         )}
         {user && (

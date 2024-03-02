@@ -4,6 +4,7 @@
  */
 import { Button } from "@/components/ui/button"
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
+import { Separator } from "@/components/ui/separator";
 
 export function FAQ() {
   return (
@@ -11,15 +12,15 @@ export function FAQ() {
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl space-y-8 md:space-y-10 lg:space-y-12">
           <div className="space-y-2">
-            <h2 className="text-gray-100 dark:text-gray-100 font-bold text-8xl font-bold tracking-tighter sm:text-4xl ">FAQ</h2>
+            <h2 className="text-gray-100 dark:text-gray-100 font-bold text-8xl font-bold tracking-tighter sm:text-6xl ">FAQ</h2>
             <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
               Got a question? We've got answers. If you have some other questions, feel free to send us an email to
-              <a href="#">hello@example.com</a>
+              <a href="#">admin@utopia.express</a>
             </p>
           </div>
           <div className="space-y-4">
             <div className="space-y-2">
-              <h3 className="text-xl font-bold">What is the difference between GPT-3 and GPT-4?</h3>
+              <h3 className="text-xl font-bold">How it works the credit system?</h3>
               <Collapsible className="space-y-2">
                 <CollapsibleTrigger asChild>
                   <Button
@@ -34,16 +35,14 @@ export function FAQ() {
                 <CollapsibleContent asChild>
                   <div className="prose max-w-none">
                     <p>
-                      GPT-4 is the next generation of the GPT series of language models. It has been trained on a more
-                      extensive and diverse dataset, allowing it to generate even more accurate and coherent text across
-                      a wide range of subjects.
+                      One credit = One custom training with your uploaded photos.
                     </p>
                   </div>
                 </CollapsibleContent>
               </Collapsible>
             </div>
             <div className="space-y-2">
-              <h3 className="text-xl font-bold">How can I access the GPT-4 language model?</h3>
+              <h3 className="text-xl font-bold">How many photos I get?</h3>
               <Collapsible className="space-y-2">
                 <CollapsibleTrigger asChild>
                   <Button
@@ -58,15 +57,14 @@ export function FAQ() {
                 <CollapsibleContent asChild>
                   <div className="prose max-w-none">
                     <p>
-                      Accessing the GPT-4 language model is easy. Simply sign up for an API key on our website, and
-                      you'll be able to integrate the model into your applications in no time.
+                      For one credit, you can get 21 high quality photos in variable style.
                     </p>
                   </div>
                 </CollapsibleContent>
               </Collapsible>
             </div>
             <div className="space-y-2">
-              <h3 className="text-xl font-bold">Can I fine-tune the GPT-4 model for my specific use case?</h3>
+              <h3 className="text-xl font-bold">What if I'm not satisfied?</h3>
               <Collapsible className="space-y-2">
                 <CollapsibleTrigger asChild>
                   <Button
@@ -81,9 +79,37 @@ export function FAQ() {
                 <CollapsibleContent asChild>
                   <div className="prose max-w-none">
                     <p>
-                      Yes, the GPT-4 model can be fine-tuned for specific use cases. We provide tools and documentation
-                      to help you train the model on your own data, allowing it to generate text that is tailored to
-                      your particular needs.
+                    Note that the final result depends significantly on the quality of the uploaded images. If you feel that the result is absolutely not the same, no matter how you try, contact us: admin@utopia.express
+                    </p>
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-xl font-bold">How can I get the best results?</h3>
+              <Collapsible className="space-y-2">
+                <CollapsibleTrigger asChild>
+                  <Button
+                    className="w-6 h-6 p-1 rounded-full border border-transparent border-gray-200 text-gray-500 transition-colors hover:border-gray-300 hover:text-gray-900 dark:border-gray-800 dark:text-gray-400 dark:hover:border-gray-50 dark:hover:text-gray-50"
+                    size="icon"
+                    variant="ghost"
+                  >
+                    <ChevronDownIcon className="w-4 h-4" />
+                    <span className="sr-only">Toggle</span>
+                  </Button>
+                </CollapsibleTrigger>
+                <CollapsibleContent asChild>
+                  <div className="prose max-w-none">
+                    <p>
+                    note that the final result depends significantly on the quality of the uploaded images.</br>
+                    <Separator />
+                    1. Use a variety of lighting
+                    <Separator />
+                    2. Don't grimace
+                    <Separator />
+                    3. Use multiple backgrounds
+                    <Separator />
+                    4. Upload a picture that shows you at least half-length.
                     </p>
                   </div>
                 </CollapsibleContent>
