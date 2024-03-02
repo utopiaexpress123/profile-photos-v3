@@ -11,7 +11,7 @@ export function FAQ() {
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl space-y-8 md:space-y-10 lg:space-y-12">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">FAQ</h2>
+            <h2 className="text-gray-100 dark:text-gray-100 font-bold text-8xl font-bold tracking-tighter sm:text-4xl ">FAQ</h2>
             <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
               Got a question? We've got answers. If you have some other questions, feel free to send us an email to
               <a href="#">hello@example.com</a>
