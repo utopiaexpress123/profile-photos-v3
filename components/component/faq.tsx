@@ -97,7 +97,7 @@ export function FAQ() {
 }
 
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
