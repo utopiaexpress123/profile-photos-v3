@@ -10,13 +10,12 @@ export function MainHero() {
     <section className="w-full">
       <div className="container px-4 md:px-6 flex flex-col items-start gap-2">
       <Badge variant="outline">Badge</Badge>
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Have a good photo of you</h1>
+        <h1 className="text-5xl font-extrabold tracking-tighter lg:text-6xl">Have a good photo of you</h1>
         <p className="py-2 text-lg max-w-[700px] text-gray-500 dark:text-gray-400">
         Create your digital clone, and take good looking photos of you.
         No filters, no makeup, it's you, in your perfect form. And quite funny.
         </p>
         <div className="flex items-center">
-           <span className="text-sm font-thin">24 masterpiece photo of you </span><span className="text-lg font-bold">12€ </span>
           <Link
             className="inline-flex w-100 items-center rounded-full shadow-lg hover:shadow-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-100 text-black-800 text-sm font-normal px-2 py-1 ml-2"
             href="./login"
@@ -37,6 +36,7 @@ export function MainHero() {
           />
           Create my clone&nbsp;&nbsp; 
           </Link>
+          <span className="text-sm font-thin">24 masterpiece photo of you </span><span className="text-lg font-bold opacity-60">12€ </span>
         </div>
       </div>
     </section>

@@ -52,7 +52,7 @@ export default async function Index() {
           />
         </div>
       </div>
-      <div className="flex-col flex gap-8 p-8">
+      <div className="flex-col flex gap-8 p-8 max-w-6xl w-full">
         <FAQ/>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
