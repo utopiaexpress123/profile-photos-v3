@@ -16,7 +16,7 @@ import {
 //import PricingSection from "@/components/PricingSection";
 import { MainHero } from "@/components/component/main-hero";
 import { HowItWoks } from "@/components/component/how-it-woks";
-
+import { FAQ } from "@/components/component/faq";
 
 export const dynamic = "force-dynamic";
 
@@ -53,6 +53,7 @@ export default async function Index() {
         </div>
       </div>
       <div className="flex-col flex gap-8 p-8">
+        <FAQ/>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
