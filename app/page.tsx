@@ -2,7 +2,8 @@ import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import hero from "/public/hero.png";
+import hero from "../public/hero.png";
+
 //import { Button } from "@/components/ui/button";
 //import ExplainerSection from "@/components/ExplainerSection";
 //import PricingSection from "@/components/PricingSection";
