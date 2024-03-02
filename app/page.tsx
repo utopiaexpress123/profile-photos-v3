@@ -52,7 +52,7 @@ export default async function Index() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row items-center gap-8 p-8 w-full">
+      <div className="flex flex-col lg:flex-row items-center gap-8 p-8 basis-9/12">
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
