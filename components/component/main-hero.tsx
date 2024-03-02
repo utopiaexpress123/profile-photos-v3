@@ -34,9 +34,9 @@ export function MainHero() {
             }}
             width={34}
           />
-          Create my clone&nbsp;&nbsp; 
+          Get your good-looking portraits&nbsp;&nbsp; 
           </Link>
-          <span className="text-sm font-thin">24 masterpiece photo of you </span><span className="text-lg font-bold opacity-60">12€ </span>
+          <span className="text-sm font-thin"> 21 photo </span><span className="text-lg font-bold opacity-60">12€ </span>
         </div>
       </div>
     </section>
