@@ -101,15 +101,37 @@ export function FAQ() {
                 <CollapsibleContent asChild>
                   <div className="prose max-w-none">
                     <p>
-                    note that the final result depends significantly on the quality of the uploaded images.
-<Separator />
-1 use a variety of lighting
-<Separator />
-2. don't grimace
-<Separator />
-3. use multiple backgrounds
-<Separator />
-4. upload a picture that shows you at least half-length.
+                    Note, that the final result depends significantly on the quality of the uploaded images.
+                    <Separator />
+                    1 use a variety of lighting
+                    <Separator />
+                    2. don't grimace
+                    <Separator />
+                    3. use multiple backgrounds
+                    <Separator />
+                    4. upload a picture that shows you at least half-length.
+                    </p>
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-xl font-bold">Can i get a refund if i'm not satisfied?</h3>
+              <Collapsible className="space-y-2">
+                <CollapsibleTrigger asChild>
+                  <Button
+                    className="w-6 h-6 p-1 rounded-full border border-transparent border-gray-200 text-gray-500 transition-colors hover:border-gray-300 hover:text-gray-900 dark:border-gray-800 dark:text-gray-400 dark:hover:border-gray-50 dark:hover:text-gray-50"
+                    size="icon"
+                    variant="ghost"
+                  >
+                    <ChevronDownIcon className="w-4 h-4" />
+                    <span className="sr-only">Toggle</span>
+                  </Button>
+                </CollapsibleTrigger>
+                <CollapsibleContent asChild>
+                  <div className="prose max-w-none">
+                    <p>
+                    Since this is a very new, experimental technology, and the result is highly subjective, we are unable to refund money. If you feel that the result is absolutely not you, no matter how you try, contact us: admin@utopia.express
                     </p>
                   </div>
                 </CollapsibleContent>
