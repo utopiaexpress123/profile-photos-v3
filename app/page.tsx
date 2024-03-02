@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import hero from "../public/hero.png";
+import { FAQ } from "@/components/component/faq";
 
 //import { Button } from "@/components/ui/button";
 //import ExplainerSection from "@/components/ExplainerSection";
@@ -46,7 +47,7 @@ export default async function Index() {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row items-center gap-8 p-8 w-full">
-        
+      <FAQ/>
       </div>
     </div>
   );
