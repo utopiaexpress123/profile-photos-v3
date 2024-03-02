@@ -65,9 +65,10 @@ export default async function Navbar() {
           <Link href="/login">
             <Button variant={"ghost"}>Login / Signup</Button>
             <img
+            width="16px"
             src={fingerprint.src}
             alt="Utopia Express"
-            className="object-cover w-full h-full"
+            className="object-contain"
           />
           </Link>
         )}
