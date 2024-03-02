@@ -39,29 +39,7 @@ export function HowItWoks() {
             }}
             width="full"
           />
-        <div className="flex items-center">
-          <Link
-            className="inline-flex w-100 items-center rounded-full shadow-lg hover:shadow-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-100 text-black-800 text-sm font-normal px-2 py-1 ml-2"
-            href="./login"
-            style={{
-              borderRadius: "50px",
-            }}
-          >
-          <img
-            alt="Double helix"
-            className="rounded-full mr-2"
-            height={34}
-            src="/kep2.gif"
-            style={{
-              aspectRatio: "34/34",
-              objectFit: "cover",
-            }}
-            width={34}
-          />
-          Get your good-looking portraits&nbsp;&nbsp; 
-          </Link>
-          <span className="text-sm font-thin"> 21 photo </span><span className="text-lg font-bold opacity-60">12€ </span>
-        </div>
+
         </div>
       </Card>
       <div className="flex items-center justify-center w-full">
