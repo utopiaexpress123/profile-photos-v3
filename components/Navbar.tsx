@@ -15,6 +15,7 @@ import React from "react";
 import { Database } from "@/types/supabase";
 import ClientSideCredits from "./realtime/ClientSideCredits";
 import logo from "/public/logo.png";
+import fingerprint from "/public/fingerprint.png";
 
 
 
@@ -63,6 +64,11 @@ export default async function Navbar() {
         {!user && (
           <Link href="/login">
             <Button variant={"ghost"}>Login / Signup</Button>
+            <img
+            src={fingerprint.src}
+            alt="Utopia Express"
+            className="object-cover w-full h-full"
+          />
           </Link>
         )}
         {user && (

@@ -13,7 +13,7 @@ export function MainHero() {
         <h1 className="text-5xl font-extrabold tracking-tighter lg:text-6xl">Have a good photo of you</h1>
         <p className="py-2 text-lg max-w-[700px] text-gray-500 dark:text-gray-400">
         Create your digital clone, and take good looking photos of you.
-        No filters, no makeup, it's you, in your perfect form. And quite funny.
+        No filters, no makeup, it's you, in your perfect form.
         </p>
         <div className="flex items-center">
           <Link
