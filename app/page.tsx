@@ -54,14 +54,6 @@ export default async function Index() {
       </div>
       <div className="flex-col flex gap-8 p-8 max-w-6xl w-full">
         <FAQ/>
-      <Accordion type="single" collapsible>
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Is it accessible?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
       </div>
     </div>
   );
