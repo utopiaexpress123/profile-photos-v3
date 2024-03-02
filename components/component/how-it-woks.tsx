@@ -8,7 +8,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
-
+import Link from "next/link";
 export function HowItWoks() {
   return (
     <>
